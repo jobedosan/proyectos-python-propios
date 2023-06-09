@@ -4,12 +4,15 @@ Crear un programa que cuente los caracteres del texto ingresado por el usuario, 
 '''
 
 #Tareas
-# 1. Solicitar la información al usuario
-# 2. Eliminar los espacios del texto ingresado por el usuario
-# 3. Imprimir por consola la cantidad de caracteres del texto ingresado por el usuario
+# 1. Crear un letrero que diga para qué sirve el programa
+# 2. Solicitar la información al usuario
+# 3. Eliminar los espacios del texto ingresado por el usuario
+# 4. Imprimir por consola la cantidad de caracteres del texto ingresado por el usuario
+
+print("Este programa te dirá la cantidad de caracteres que tiene cualquier texto que le ingreses")
 
 #Esta primera línea recibe el texto ingresado por el usuario
-texto_ingresado = input("Ingresa el texto para decirte cuántos caracteres tiene")
+texto_ingresado = input("Ingresa un texto para saber cuántos caracteres tiene: ")
 
 #La siguiente línea elimina los espacios del texto ingresado por el usuario
 texto_ingresado = texto_ingresado.replace(" ", "")
